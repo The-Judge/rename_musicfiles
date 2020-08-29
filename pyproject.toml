@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "rename_musicfiles"
+author = "Marc Richter"
+author-email = "mail@marc-richter.info"
+home-page = "https://github.com/The-Judge/rename_musicfiles"
+description-file = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Programming Language :: Python",
+    "Topic :: Multimedia :: Sound/Audio"
+]
+requires = [
+    "phrydy >=2.0.0",
+]
+
+[tool.flit.scripts]
+rename_musicfiles = "rename_musicfile.py:main"
+
+[tool.flit.sdist]
+exclude = [
+    ".python_version",
+    ".gitignore",
+    ".git",
+    ".idea",
+    ".DS_Store",
+    ".git"
+]
