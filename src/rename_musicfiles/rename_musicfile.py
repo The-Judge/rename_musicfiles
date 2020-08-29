@@ -3,11 +3,6 @@ from phrydy import MediaFile
 from pathlib import Path
 import sys
 
-"""A very simple script that renames audio files based on their tags to a hardcoded pattern"""
-
-__version__ = "0.1"
-
-
 def main():
     for x in sys.argv[1:]:
         file = Path(x)
