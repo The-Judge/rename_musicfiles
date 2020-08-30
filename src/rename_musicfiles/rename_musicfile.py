@@ -3,6 +3,7 @@ from phrydy import MediaFile
 from pathlib import Path
 import sys
 
+
 def main():
     for x in sys.argv[1:]:
         file = Path(x)

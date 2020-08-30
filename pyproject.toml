@@ -19,7 +19,7 @@ requires = [
 ]
 
 [tool.flit.scripts]
-rename_musicfiles = "rename_musicfile.py:main"
+rename_musicfiles = "rename_musicfile:main"
 
 [tool.flit.sdist]
 exclude = [
