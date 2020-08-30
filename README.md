@@ -1,6 +1,6 @@
 # About
 
-`rename_musicfile` is a very (!) simple script to rename musicfiles
+`rename_musicfiles` is a very (!) simple script to rename musicfiles
 by a hardcoded pattern from that file's Meta tags.  
 This pattern is `<artist>/(-<year>-) albumname/<zero-padded track-nr> - <artist> - <track-name>.<file-extension>`.
 
